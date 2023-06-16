@@ -31,5 +31,15 @@ namespace SOP
         {
 
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            textBox2.UseSystemPasswordChar = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox2.UseSystemPasswordChar = false;
+        }
     }
 }
